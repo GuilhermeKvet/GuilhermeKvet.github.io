@@ -3,48 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfólio Web</title>
+    
     <style>
-        body{
+        body {
             background-color: darkcyan;
         }
+        h1 {
+            color: white;
+            font-family: 'Times New Roman', Times, serif; 
+            font-size: xx-large;
+            text-align: center;
+            line-height: 20px;
+        }
+        
+        .estilo-turma {
+            color: white;
+            text-align: center;
+            line-height: 60px;
+        }
+    
+        .font-resumo {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        p {
+            color: white;
+            font-style: inherit;
+            font-size: large;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        img {
+            border-radius: 10%;
+        }
+
+        .minhas-habilidades{
+            font-size: xx-large;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;  
+        }
+
+
+        nav li {
+            color: black;
+            font-weight: 200;
+            font-size: 20px;
+            display: inline-block;
+            margin: 0 0 0 60px;
+        }
+
     </style>
 </head>
 <body>
     <h1>
         <strong>Guilherme Vinicius Kvet da Rocha</strong>
     </h1>    
-        <br>
-        <h2><p id="turma">Turma 21 - Tribo B</h2>
+    
     <br>
+    
+    <h2><h2 class="estilo-turma" id="turma">Turma 21 - Tribo B<br>
     <img src="minha foto.jpeg" alt="Minha foto de perfil" id="FotoPerfil" width="300px">
-    <br>
-    <p><p id="resumo"></p>Olá, me chamo Guilherme e sou estudante de Desenvolvimento Web na Trybe!<br> Nasci em Curitiba (PR) e atualmente moro em Camboriú (SC)</p>
-    <br>
-    <h2><em>Minhas habilidades<p id="habilidades"></em></h2>
+    <br></h2>
+    
+    <p><p id="resumo" class="font-resumo">Olá, me chamo Guilherme e sou estudante de Desenvolvimento Web na Trybe!<br> Nasci em Curitiba (PR) e atualmente moro em Camboriú (SC)</p><br><br>
+    
+    <h2><h2 id="habilidades" class="minhas-habilidades"></p><em>Minhas habilidades</em></h2>
+    <nav>
     <ul>
         <li>Comunicação</li>
         <li><strong>Resiliência</strong></li>
         <li>Empatia</li>
         <li>Percistência</li>
         <li>Autocontrole</li>
+    </ul><br><br></nav>
+
+    <p>Contatos profissionais</p>
+<nav>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/guilherme-vinicius-kvet-rocha-6a5599170/" target="_blank">Linkedin</a></li><br>
+
+        <li><a href="https://github.com/GuilhermeKvet?tab=overview&from=2022-02-01&to=2022-02-24" target="_blank">Github</a></li>
     </ul>
-    <br>
-    <br>
-    <a href="https://www.linkedin.com/in/guilherme-vinicius-kvet-rocha-6a5599170/" target="_blank">Linkedin</a>
-    <br>
-    <a href="https://github.com/GuilhermeKvet?tab=overview&from=2022-02-01&to=2022-02-24" target="_blank">Github</a>
+</nav>
+    
     <br>
     <br>
     <br>
     <br>
     <br>
+    
     <a href="#FotoPerfil">Foto do Perfil</a> 
+    
     <br>
     <br>
+    
     <ol>
         <li><a href="#habilidades">Minhas habilidades</li>
         <li><a href="#turma">Turma</li>
         <li><a href="#resumo">Resumo</li>
     </ol>
+
 </body>
 </html>
