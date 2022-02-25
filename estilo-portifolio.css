@@ -1,0 +1,49 @@
+body {
+    background-color: darkcyan;
+}
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: xx-large;
+    text-align: center;
+    line-height: 20px;
+}
+
+.estilo-turma {
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
+
+.font-resumo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-style: inherit;
+    font-size: large;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    text-align: center;
+}
+
+img {
+    border-radius: 10%;
+}
+
+.minhas-habilidades{
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+
+nav li {
+    color: black;
+    font-weight: 200;
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 0 0 70px;
+}
