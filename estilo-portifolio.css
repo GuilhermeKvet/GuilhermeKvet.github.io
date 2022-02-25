@@ -1,9 +1,10 @@
 body {
     background-color: darkcyan;
 }
+
 h1 {
     color: white;
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
     text-align: center;
     line-height: 20px;
@@ -15,7 +16,7 @@ h1 {
     line-height: 60px;
 }
 
-.font-resumo {
+.resumo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
@@ -29,21 +30,38 @@ p {
     text-align: center;
 }
 
+#contato-profissional {
+    color: white;
+    font-size: xx-large;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 img {
     border-radius: 10%;
 }
 
-.minhas-habilidades{
+.minhas-habilidades {
+    color: white;
+    font-weight: 800;
     font-size: xx-large;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;  
+    font-family: 'Times New Roman', Times, serif;
 }
 
-
-nav li {
+div li {
     color: black;
     font-weight: 200;
     font-size: 20px;
+    overflow: auto;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.button {
+    font-size: 20px;
+    text-decoration: none;
     display: inline-block;
-    margin: 0 0 0 70px;
 }
