@@ -65,13 +65,13 @@ body {
 
 .soft-skills{
     color: white;
-    position: absolute;
+    float: left;
     left: 350px;
 }
 
 .hard-skills{
     color: white;
-    position: absolute;
+    float: left;
     left: 350px;
 }
 
