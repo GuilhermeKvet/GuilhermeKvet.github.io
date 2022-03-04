@@ -5,56 +5,61 @@
     <meta charset="UTF-8">
     <title>Portfólio Web</title>
     <link rel="stylesheet" href="estilo-portifolio.css">
-
 </head>
 
 <body>
-    <h1>
-        <strong>Guilherme Vinicius Kvet da Rocha</strong>
-    </h1>
+    <main class="main">
+        <h1 id="nome"><strong>Guilherme Vinicius Kvet da Rocha</strong></h1>
 
-    <br>
+        <h1 id="turma">Turma 21 - Tribo B</h1><br>
 
-    <h2 class="estilo-turma" id="turma">Turma 21 - Tribo B<br>
-        <img src="minha foto.jpeg" alt="Minha foto de perfil" id="FotoPerfil" width="300px">
-        <br>
-    </h2>
+        <section class="image-container">
+            <img src="minha foto.jpeg" alt="Minha foto de perfil" id="FotoPerfil" width="300px"><br>
 
-    <p id="resumo" class="resumo">Olá, me chamo Guilherme e sou estudante de Desenvolvimento Web na Trybe!<br> Nasci em
-        Curitiba (PR) e atualmente moro em Camboriú (SC)</p><br><br>
+            <p id="resumo">Olá, me chamo Guilherme e sou estudante de Desenvolvimento Web na Trybe!<br><br>Nasci em Curitiba (PR) e atualmente moro em Camboriú (SC)</p>
+        </section>
 
-    <h2 id="habilidades" class="minhas-habilidades">Minhas habilidades
-    </h2>
 
-    <div>
-        <ul>
-            <li>Comunicação</li>
-            <li><strong>Resiliência</strong></li>
-            <li>Empatia</li>
-            <li>Percistência</li>
-            <li>Autocontrole</li>
-        </ul><br><br>
-    </div>
+        <h2 id="habilidades">Minhas habilidades</h2>
 
-    <p id="contato-profissional">Contatos profissionais</p>
+        <nav>
+            <ul class="lista-habilidades">
+                <li class="soft-skills">Soft skills</li>
+                <li>Comunicação</li>
+                <li><strong>Resiliência</strong></li>
+                <li>Empatia</li>
+                <li>Percistência</li>
+                <li>Autocontrole</li><br><br>
+                <li class="hard-skills">Hard skills</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li><strong>JavaScript</strong></li>
+                <li>React</li>
+                <li>SQL</li>
+            </ul>
+        </nav>
 
-    <div>
-        <ul class="button">
-            <li><a href="https://www.linkedin.com/in/guilherme-vinicius-kvet-rocha-6a5599170/" target="_blank">Linkedin</a></li><br>
+        <p id="contato-profissional">Contatos profissionais</p>
 
-            <li><a href="https://github.com/GuilhermeKvet?tab=overview&from=2022-02-01&to=2022-02-24" target="_blank">Github</a></li>
-        </ul>
-    </div>
-    <br>
-    <br>
-    
-    <em><a href="#FotoPerfil">Foto do Perfil</a></em><br><br>
-    
-    <ol>
-        <li><a href="#habilidades">Minhas habilidades</li>
-        <li><a href="#turma">Turma</li>
-        <li><a href="#resumo">Resumo</li>
-    </ol>
+        <nav>
+            <ul class="links-profissionais">
+                <li><a href="https://www.linkedin.com/in/guilherme-vinicius-kvet-rocha-6a5599170/" target="_blank">Linkedin</a></li>
 
+                <li><a href="https://github.com/GuilhermeKvet?tab=overview&from=2022-02-01&to=2022-02-24" target="_blank">Github</a></li>
+            </ul>
+        </nav>
+    </main>
+    <footer class="footer">
+        <h1 id="indice">Índice</h1>
+        <nav>
+            <ul class="lista-indice">
+                <li><a href="#habilidades">Minhas habilidades</li>
+                <li><a href="#turma">Turma</li>
+                <li><a href="#resumo">Resumo</li>
+                <li><a href="minha foto.jpeg" alt="Minha foto">Minha foto</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
+
 </html>

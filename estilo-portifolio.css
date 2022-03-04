@@ -2,7 +2,12 @@ body {
     background-color: darkcyan;
 }
 
-h1 {
+.main{
+    padding: 2%;
+    margin-left: 6%;
+}
+
+#nome {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
@@ -10,58 +15,99 @@ h1 {
     line-height: 20px;
 }
 
-.estilo-turma {
+#turma {
     color: white;
+    font-size: x-large;
     text-align: center;
     line-height: 60px;
 }
 
-.resumo {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
+#FotoPerfil{
+    border-radius: 10%;
+    float: left;
+    height: 370px;
+    padding: 5px;
+    background-color: black;
 }
 
-p {
+.image-container{
+    height: 380px;
+    position: relative; 
+}
+
+#resumo {
     color: white;
-    font-style: inherit;
-    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 350px;
+    font-size: large;     
+    font-weight: 400; 
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+#habilidades {
+    color: white;
+    font-weight: 800;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 100px;
+}
+
+.lista-habilidades {
+    text-align: center;
+    font-size: x-large;
+    line-height: 50px;
+    color:rgb(0, 0, 0)
+}
+
+.soft-skills{
+    color: white;
+    position: absolute;
+    left: 350px;
+}
+
+.hard-skills{
+    color: white;
+    position: absolute;
+    left: 350px;
+}
+
+#contato-profissional {
+    line-height: 200px;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
     letter-spacing: 0.5px;
     font-weight: 600;
     text-align: center;
 }
 
-#contato-profissional {
-    color: white;
-    font-size: xx-large;
-    font-weight: 800;
+nav li {
+    display: inline-block; 
+    margin-right: 70px;   
+}
+
+.links-profissionais {
+    font-size: x-large;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-img {
-    border-radius: 10%;
-}
-
-.minhas-habilidades {
-    color: white;
-    font-weight: 800;
-    font-size: xx-large;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-div li {
-    color: black;
-    font-weight: 200;
-    font-size: 20px;
-    overflow: auto;
-    text-align: center;
-    line-height: 30px;
-
-}
-
-.button {
-    font-size: 20px;
     text-decoration: none;
+}
+
+.footer{
+    background-color: gray;
+}
+
+#indice{
+    color: white;
+    margin-left: 2%;
+}
+
+.lista-indice li{
     display: inline-block;
+    margin-right: 70px;
+    height: 100px;
+    line-height: 60px;
 }
