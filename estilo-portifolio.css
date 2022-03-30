@@ -1,10 +1,9 @@
 body {
-    background-color: rgb(67, 141, 107);
-    margin: 5px;
+    background-color: white;
 }
 
 h2{
-    color: white;
+    color: rgb(67, 141, 107);
     font-weight: 800;
     font-size: xx-large;
     text-align: center;
@@ -13,8 +12,9 @@ h2{
 }
 
 li{
-    display: inline-block; 
-    margin-right: 70px; 
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 40px; 
 }
 
 a{
@@ -24,7 +24,8 @@ a{
 .header-container{
     display: flex;
     flex-flow: column;
-    color: white;
+    align-items: center;
+    color: rgb(67, 141, 107);
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     text-align: center;
@@ -33,9 +34,7 @@ a{
 
 .image-container{
     display: flex;
-    flex-flow: row wrap;
-    overflow: auto;
-    justify-content: center;
+    width: 100%;
     align-items: center;
     margin: 0 100px;
 }
@@ -43,38 +42,44 @@ a{
 .image-container img{
     border-radius: 10%;
     border: 1px solid black;
+    margin-left: 30px;
 }
 
 .image-container p{
-    display: flex;
-    align-content: center;
-    color: white;
+    color: rgb(67, 141, 107);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 350px;
     font-size: large;     
     font-weight: 400; 
     text-align: center;
-    margin-left: 10px;
+    margin-left: 150px;
 }
 
 .soft-skills-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    margin-left: 100px;
 }
 
 .soft-skills-container  h3{
-    color: white;
+    color: rgb(67, 141, 107);
 }
 
 .hard-skills-container{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: 100px;
+    
 }
 
 .hard-skills-container h3{
-    color: white;
+    color: rgb(67, 141, 107);
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
 }
 
 .links-profissionais {
@@ -83,9 +88,13 @@ a{
 
 .footer{
     display: flex;
-    background-color: white;
+    background-color: rgb(202, 197, 197);
     margin-top: 10px;
     height: 50px;
     justify-content: center;
     align-items: center;
+}
+
+.fa-brands{
+    font-size: 30px;
 }
